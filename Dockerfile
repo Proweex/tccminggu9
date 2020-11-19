@@ -9,5 +9,5 @@ ADD files/index.html /usr/share/nginx/html/
 
 EXPOSE 80/tcp
 
-ENRTYPOINT ["nginx"]
+ENTRYPOINT ["nginx"]
 CMD ["-g", "daemon off;"]
